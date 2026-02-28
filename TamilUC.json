@@ -1,0 +1,55 @@
+{
+"id": "tmdb.nuvio.tamil-upcoming",
+"version": "1.0.0",
+"name": "Tamil Upcoming",
+"description": "Nuvio Android TV manifest for Movies",
+"types": [
+"movies"
+],
+"catalogs": [
+{
+"type": "movies",
+"id": "tmdb-all",
+"name": "TMDB All",
+"extra": [
+{
+"name": "genre",
+"options": [
+"All"
+]
+},
+{
+"name": "skip"
+}
+]
+}
+],
+"resources": [
+"catalog",
+"meta"
+],
+"idPrefixes": [
+"tmdb:"
+],
+"behaviorHints": {
+"configurable": true
+},
+"config": {
+"tmdbApiKey": "b3a9232b4477ba2c4670933356264b2b",
+"geminiApiKey": "AIzaSyDn0l0KlOxymQzr2ZJc58ojgqHIqgn2_Gs",
+"thetvdbApiKey": "9ffe68d5-2c30-4e41-9092-a272a7ac5f07",
+"fanartApiKey": "f8f3d86849b3cac28866e33b13c14ae3",
+"rpdbApiKey": "t0-free-rpdb",
+"mdblistApiKey": "a49gqkv5dzfpa22h69dk39um5",
+"mediaType": "Movies",
+"includeLanguages": [
+"Tamil"
+],
+"excludeLanguages": [],
+"startDate": "2026-01-01",
+"endDate": "2027-12-31",
+"genre": "All",
+"releaseCategory": "Upcoming",
+"sortOrder": "Released Desc."
+}
+}
